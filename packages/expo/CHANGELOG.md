@@ -1,5 +1,17 @@
 # Changelog
 
+## 58.0.2
+
+### Patch Changes
+
+- [iOS] Declare each module's SwiftPM package dependencies and honour `autolinkWhen` conditions in the SwiftPM autolinking plugin. ([#50549](https://github.com/expo/expo/pull/50549) by [@chrfalch](https://github.com/chrfalch))
+- [iOS] Fail the SwiftPM autolinking sync with a specific error for module setups the plugin cannot link correctly, instead of producing a broken build. ([#50549](https://github.com/expo/expo/pull/50549) by [@chrfalch](https://github.com/chrfalch))
+- Updated dependencies. ([#50660](https://github.com/expo/expo/pull/50660), [#50549](https://github.com/expo/expo/pull/50549))
+  - expo-modules-core@58.0.11
+  - expo-modules-autolinking@58.0.7
+  - babel-preset-expo@58.0.8
+  - @expo/cli@58.1.1
+
 ## 58.0.1
 
 ### Patch Changes
